@@ -1,6 +1,3 @@
-<p align="center">
-  <img src=".github/preview.png" alt="Demonstração do projeto" width="100%" />
-</p>
 
 ## 🖥️ Projeto
 
@@ -11,3 +8,7 @@ Projeto criado com base no desafio da [Alura](https://www.alura.com.br/), o 7 Da
 - HTML
 - CSS
 - Git e Github
+
+<p align="center">
+  <img src=".github/preview.png" alt="Demonstração do projeto" width="100%" />
+</p>
