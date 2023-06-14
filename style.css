@@ -9,6 +9,14 @@
     box-sizing: border-box;
 }
 
+html {
+    font-size: 62.5%;
+}
+
+p, span, a {
+    font-size: 1.6rem;
+}
+
 body {
     font-family: 'Inter', sans-serif;
     width: 100%;
@@ -19,9 +27,14 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100vw;
-    padding: 20px 112px;
+    padding: 2rem 11.2rem;
     font-weight: 500;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 a {
@@ -33,10 +46,6 @@ p {
     color: var(--text-color);
 }
 
-span {
-    font-weight: 600;
-}
-
 .logo {
     display: flex;
     justify-content: center;
@@ -45,7 +54,7 @@ span {
 }
 
 .logo img {
-    margin-right: 10px;
+    margin-right: 1rem;
 }
 
 .logo p {
@@ -55,7 +64,7 @@ span {
 .pages ul {
     display: flex;
     list-style: none;
-    gap: 20px;
+    gap: 2rem;
     color: var(--text-color);
 }
 
@@ -66,13 +75,13 @@ span {
 button {
     background: transparent;
     border: none;
-    padding: 10px;
-    border-radius: 5px;
+    padding: 1rem;
+    border-radius: .5rem;
     cursor: pointer;
 }
 
 #login {
-    margin-right: 30px;
+    margin-right: 3rem;
     color: var(--text-color);
 }
 
@@ -85,7 +94,7 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 10rem;
     text-align: center;
 }
 
@@ -94,34 +103,188 @@ button {
 }
 
 .about-us h1 {
-    margin: 30px auto;
+    margin: 3rem auto;
+    font-size: 4.8rem;
 }
 
 .about-us p {
     max-width: 70%;
     color: var(--text-color);
-    line-height: 30px;
+    line-height: 3rem;
 }
 
 .metrics-container {
-    margin-top: 100px;
+    margin-top: 10rem;
     display: flex;
+    /* flex-wrap: wrap; */
     justify-content: space-around;
     align-items: center;
-    padding: 0 80px;
+    padding: 0 8rem;
 }
 
 .metrics-container div {
-    max-width: 280px;
+    max-width: 28rem;
 }
 
 .metrics-container h3 {
-    font-size: 60px;
+    font-size: 6rem;
     color: var(--main-color);
 }
 
 .metrics-container span {
     display: block;
     color: #101828;
-    margin: 10px 0;
+    font-size: 1.8rem;
+    margin: 1rem 0;
+}
+
+.open-positions {
+    margin-top: 20rem;
+    margin-bottom: 9.6rem;
+    text-align: center;
+}
+
+.open-positions>span {
+    color: #8E2424;
+    padding: .8rem;
+    background-color: rgba(142, 36, 36, 0.05);
+    border-radius: 1.6rem;
+    font-weight: 600;
+}
+
+.open-positions>h2 {
+    margin: 2rem 0;
+    font-size: 3.6rem;
+}
+
+.open-positions>p {
+    margin-bottom: 6.4rem;
+    font-size: 2rem;
+}
+
+.open-positions>img {
+    object-fit: cover;
+    height: 40rem;
+    margin-bottom: 6.4rem;
+}
+
+.area {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+    width: 76.8rem;
+    margin: 0 auto 6.4rem;
+}
+
+.area h3 {
+    font-size: 2rem;
+    margin-bottom: .8rem;
+    text-align: left;
+}
+
+.position {
+    border: .1rem solid #EAECF0;
+    border-radius: 1.6rem;
+    height: 13.6rem;
+    text-align: left;
+    padding: 2.4rem;
+}
+
+.position>span {
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.details {
+    margin-top: 3.2rem;
+    color: var(--text-color);
+}
+
+.details>span {
+    margin-right: 2.4rem;
+}
+
+.comments {
+    width: 121.6rem;
+    background-color: rgba(142, 36, 36, 0.05);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6.4rem;
+    border-radius: 1.6rem;
+    margin-bottom: 9.6rem;
+}
+
+.comments span:first-child {
+    color: var(--main-color);
+    font-weight: 600;
+}
+
+.comments p {
+    font-size: 3.6rem;
+    color: #101828;
+    font-weight: 500;
+    margin: 1.6rem auto 3.2rem;
+}
+
+.comments img {
+    width: 5.6rem;
+    height: 5.6rem;
+    margin-bottom: 1.6rem;
+}
+
+.comments .name {
+    font-weight: 500;
+    margin-bottom: .5rem;
+    color: #101828;
+}
+
+.comments span:last-child {
+    color: var(--text-color);
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F9FAFB;
+    padding: 9.6rem;
+}
+
+footer h4 {
+    font-size: 3.6rem;
+    margin-bottom: 2rem;
+}
+
+footer p {
+    margin-bottom: 4rem;
+    font-size: 2rem;
+}
+
+footer form {
+    margin-bottom: 3.2rem;
+}
+
+footer input {
+    width: 36rem;
+    height: 3.6rem;
+    padding: 1.2rem;
+    border-radius: .8rem;
+    border: .1rem solid #D0D5DD;
+    margin-right: 1.6rem;
+}
+
+footer input:focus {
+    outline: .2rem solid rgba(0,0,0,0.05);
+}
+
+footer span {
+    color: #98A2B3;
+}
+
+footer button {
+    background-color: var(--main-color);
+    color: #FFF;
+    border-radius: .8rem;
 }
