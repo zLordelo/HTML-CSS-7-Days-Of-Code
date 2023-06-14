@@ -1,7 +1,7 @@
 
 ## 🖥️ Projeto
 
-Projeto criado com base no desafio da [Alura](https://www.alura.com.br/), o 7 Days of Code - HTML e CSS.
+Projeto criado com base no desafio da [Alura](https://www.alura.com.br/){target="_blank"}, o 7 Days of Code - HTML e CSS.
 
 ## 🚀 Tecnologias
 
